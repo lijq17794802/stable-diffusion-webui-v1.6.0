@@ -375,7 +375,7 @@ def prepare_environment():
     print(f"Python {sys.version}")
     print(f"Version: {tag}")
     print(f"Commit hash: {commit}")
-    print("\033[0;37;43mKaggle云端一键启动脚本BiliBili作者：Nyan9，永久免费分享。QQ群632428790\033[0m")
+    print("\033[0;37;43mKaggle此处修改，验证一下\033[0m")
 
     if args.reinstall_torch or not is_installed("torch") or not is_installed("torchvision"):
         run(f'"{python}" -m {torch_command}', "Installing torch and torchvision", "Couldn't install torch", live=True)
